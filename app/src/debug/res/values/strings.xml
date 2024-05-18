@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="leak_canary_display_activity_label">@string/appName</string>
+
+</resources>
