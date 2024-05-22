@@ -16,7 +16,7 @@ android {
     buildToolsVersion = libs.versions.build.tools.version.get()
 
     defaultConfig {
-        applicationId = "ua.frist008.n4k"
+        applicationId = "ua.frist008.n4k.collection"
         namespace = applicationId
         minSdk = libs.versions.sdk.min.get().toInt()
         targetSdk = libs.versions.sdk.target.get().toInt()
