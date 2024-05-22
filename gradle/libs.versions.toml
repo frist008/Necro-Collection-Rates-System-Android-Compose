@@ -1,7 +1,8 @@
 [versions]
 # plugin
-plugin-gradle-android = "8.4.0"
+plugin-gradle-android = "8.4.1"
 plugin-ben-manes = "0.51.0"
+plugin-google-services = "4.4.1"
 plugin-firebase-crashlytics = "3.0.1"
 plugin-firebase-perf = "1.4.2"
 plugin-ksp = "1.9.24-1.0.20"
@@ -104,6 +105,7 @@ timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 android-application = { id = "com.android.application", version.ref = "plugin-gradle-android" }
 ben-manes = { id = "com.github.ben-manes.versions", version.ref = "plugin-ben-manes" }
 di-hilt = { id = "com.google.dagger.hilt.android", version.ref = "di-hilt" }
+google-services = { id = "com.google.gms.google-services", version.ref = "plugin-google-services" }
 firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "plugin-firebase-crashlytics" }
 firebase-perf = { id = "com.google.firebase.firebase-perf", version.ref = "plugin-firebase-perf" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

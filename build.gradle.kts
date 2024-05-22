@@ -1,13 +1,14 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
+    alias(libs.plugins.ben.manes)
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.kotlin.parcelize) apply false
-    alias(libs.plugins.ben.manes)
-    alias(libs.plugins.di.hilt) apply false
     alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.google.services) apply false
+    alias(libs.plugins.di.hilt) apply false
 }
 
 fun isStable(version: String): Boolean {
